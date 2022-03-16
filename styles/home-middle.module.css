@@ -1,0 +1,80 @@
+.homeMiddleContainer {
+  position: relative;
+  width: 100%;
+  padding-top: var(--block-spacing-vertical);
+  padding-bottom: var(--block-spacing-vertical);
+  background: url(https://www.skullbots.io/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-color: #000;
+}
+
+.systemMalfunctionParagraphWrapper h1 {
+  margin-bottom: 0;
+}
+
+.systemMalfunctionParagraphWrapper p {
+  font-weight: 700;
+  color: #4b4b4b;
+}
+
+.systemMalfunctionImageWrapper {
+  display: none;
+}
+
+.humanityDoomedContainer p {
+  font-weight: 700;
+  color: #6d0000;
+}
+
+.humanityDoomedDetail {
+  padding: 0 calc(var(--block-spacing-horizontal) * 6);
+  text-align: center;
+  margin-top: calc(var(--block-spacing-vertical) * 2);
+}
+
+.dripImageWrapper {
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  bottom: -140px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 992px) {
+  .systemMalfunctionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 280px;
+  }
+
+  .systemMalfunctionImageWrapper {
+    display: block;
+    text-align: end;
+  }
+
+  .systemMalfunctionImage {
+    border-radius: 20px;
+    opacity: 0.5;
+  }
+
+  .humanityDoomedContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr;
+    column-gap: var(--block-spacing-horizontal);
+  }
+
+  .humanityDoomedContainer h1 {
+    grid-column: 1 / 3;
+    text-align: center;
+  }
+
+  .humanityDoomedDetail {
+    grid-column: 1 / 3;
+    margin-top: var(--block-spacing-vertical);
+  }
+}

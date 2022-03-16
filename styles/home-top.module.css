@@ -1,0 +1,63 @@
+.homeTopContainer {
+  width: 100%;
+  padding-bottom: var(--block-spacing-vertical);
+  background: url("https://www.skullbots.io/bgx.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.welcomeMessageContainer {
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.welcomeMessageContainer h1,
+.welcomeMessageContainer h2,
+.welcomeMessageContainer h3,
+.welcomeMessageContainer h4,
+.welcomeMessageContainer h5 {
+  color: #ea0000;
+}
+
+.welcomeMessageContainer .itsYourLast {
+  margin-bottom: 0;
+}
+
+.welcomeMessageContainer img {
+  cursor: pointer;
+}
+
+.theBeginningContainer {
+  display: grid;
+}
+
+.theBeginingParagraphWrapper h1 {
+  margin-bottom: 0;
+}
+
+.theBeginningContainer p {
+  font-weight: 700;
+  color: #4b4b4b;
+}
+
+.theBeginningImageWrapper {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .theBeginningContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .theBeginningImageWrapper {
+    display: block;
+    text-align: end;
+  }
+
+  .theBeginningImage {
+    opacity: 0.25;
+  }
+}

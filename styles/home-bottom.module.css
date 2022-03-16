@@ -1,0 +1,28 @@
+.homeBottomContainer {
+  padding-top: 140px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.nftContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.nftWrapper {
+  text-align: center;
+}
+
+.nftWrapper p {
+  color: #000;
+}
+
+@media (min-width: 929px) {
+  .nftGuardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+}

@@ -1,0 +1,29 @@
+.joinUsContainer {
+  background: url("https://www.skullbots.io/banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+
+.joinUsWrapper {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
